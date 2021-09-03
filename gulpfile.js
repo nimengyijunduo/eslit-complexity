@@ -15,11 +15,10 @@ const scancomplexity = async () => {
       ignoreFileName: '.ignore'
   }, 2);
   console.log(result);
-}
-scancomplexity();
-
+};
 const jsFiles = [`${srcPath}/*.js`];
 const js = async () => {
+  scancomplexity();
   return gulp.src(jsFiles, { since: gulp.lastRun(js) })
     // .pipe(eslint())
     // .pipe(eslint.format())
