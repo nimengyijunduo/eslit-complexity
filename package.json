@@ -1,0 +1,21 @@
+{
+  "name": "complexity",
+  "version": "1.0.0",
+  "description": "前端代码质量-圈复杂度",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "chenghui",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "del": "^5.1.0",
+    "eslint": "^7.32.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "c-scan": "^1.0.0"
+  }
+}
